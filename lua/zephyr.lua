@@ -13,7 +13,7 @@ local zephyr = {
   base7      = '#9ca0a4';
   base8      = '#b1b1b1';
 
-  bg = '#282a36';
+  bg = '#000000';
   bg1 = '#504945';
   bg_popup = '#3E4556';
   bg_highlight  = '#2E323C';
@@ -22,20 +22,20 @@ local zephyr = {
   fg = '#bbc2cf';
   fg_alt  = '#5B6268';
 
-  red = '#e95678';
+  red = '#ef596f';
 
   redwine = '#d16d9e';
-  orange = '#D98E48';
-  yellow = '#f0c674';
+  orange = '#d19a66';
+  yellow = '#e5c07b';
 
   light_green = '#abcf84';
-  green = '#afd700';
+  green = '#87c976';
   dark_green = '#98be65';
 
   cyan = '#36d0e0';
   blue = '#61afef';
   violet = '#b294bb';
-  magenta = '#c678dd',
+  magenta = '#d55fdd',
   teal = '#1abc9c';
   grey = '#928374';
   brown = '#c78665';
@@ -48,7 +48,7 @@ local zephyr = {
 
 function zephyr.terminal_color()
   vim.g.terminal_color_0 = zephyr.bg
-  vim.g.terminal_color_1 = zephyr.red
+  vim.g.terminal_color_1 = zephyr.ed
   vim.g.terminal_color_2 = zephyr.green
   vim.g.terminal_color_3 = zephyr.yellow
   vim.g.terminal_color_4 = zephyr.blue
@@ -138,11 +138,11 @@ function zephyr.load_syntax()
     Float = {fg=zephyr.brown};
     PreProc = {fg=zephyr.violet};
     PreCondit = {fg=zephyr.violet};
-    Include = {fg=zephyr.violet};
+    Include = {fg=zephyr.magenta};
     Define = {fg=zephyr.violet};
     Conditional = {fg=zephyr.magenta};
     Repeat = {fg=zephyr.magenta};
-    Keyword = {fg=zephyr.green};
+    Keyword = {fg=zephyr.magenta};
     Typedef = {fg=zephyr.red};
     Exception = {fg=zephyr.red};
     Statement = {fg=zephyr.red};
@@ -151,17 +151,17 @@ function zephyr.load_syntax()
     Tag = {fg=zephyr.orange};
     Label = {fg=zephyr.orange};
     Structure = {fg=zephyr.orange};
-    Operator = {fg=zephyr.redwine};
+    Operator = {fg=zephyr.cyan};
     Title = {fg=zephyr.orange,style='bold'};
-    Special = {fg=zephyr.yellow};
+    Special = {fg=zephyr.red};
     SpecialChar = {fg=zephyr.yellow};
     Type = {fg=zephyr.teal};
     Function = {fg=zephyr.yellow};
-    String = {fg=zephyr.light_green};
+    String = {fg=zephyr.green};
     Character = {fg=zephyr.green};
-    Constant = {fg=zephyr.cyan};
+    Constant = {fg=zephyr.yellow};
     Macro = {fg=zephyr.cyan};
-    Identifier = {fg=zephyr.blue};
+    Identifier = {fg=zephyr.red};
 
     Comment = {fg=zephyr.base6};
     SpecialComment = {fg=zephyr.grey};
@@ -180,12 +180,12 @@ end
 
 function zephyr.load_plugin_syntax()
   local plugin_syntax = {
-    TSFunction = {fg=zephyr.cyan};
-    TSMethod = {fg=zephyr.cyan};
+    TSFunction = {fg=zephyr.blue};
+    TSMethod = {fg=zephyr.blue};
     TSKeywordFunction = {fg=zephyr.red};
-    TSProperty = {fg=zephyr.yellow};
-    TSType = {fg=zephyr.teal};
-    TSVariable = {fg=zephyr.blue};
+    TSProperty = {fg=zephyr.red};
+    TSType = {fg=zephyr.red};
+    TSVariable = {fg=zephyr.red};
     TSPunctBracket = {fg=zephyr.bracket};
 
     vimCommentTitle = {fg=zephyr.grey,style='bold'};
