@@ -264,15 +264,7 @@ function zephyr.load_plugin_syntax()
     LspDiagnosticsUnderlineHint = {style="undercurl",sp=zephyr.cyan};
         
     -- Cmp
-    CmpItemAbbrDeprecated = {fg=zephyr.grey};
-    CmpItemAbbrMatch = {fg=zephyr.cyan};
-    CmpItemAbbrMatchFuzzy = {fg=zephyr.cyan};
-    CmpItemKindVariable = {fg=zephyr.teal}:
-    CmpItemKindInterface = {fg=zephyr.teal}:
-    CmpItemKindText = {fg=zephyr.teal}:
-    CmpItemKindFunction = {fg=zephyr.magenta};
-    CmpItemKindMethod = {fg=zephyr.magenta};
-    CmpItemKindKeyword = {fg=zephyr.yellow};
+
 
     CursorWord0 = {bg=zephyr.currsor_bg};
     CursorWord1 = {bg=zephyr.currsor_bg};
