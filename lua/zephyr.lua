@@ -266,22 +266,33 @@ function zephyr.load_plugin_syntax()
     -- Cmp
     -- CmpDocumentation = { fg = c.fg, bg = c.bg_float };
     -- CmpDocumentationBorder = { fg = c.border_highlight, bg = c.bg_float };
+        
+    --CmpItemAbbrDeprecated = {fg=zephyr.grey};
+    --CmpItemAbbrMatch = {fg=zephyr.cyan};
+    --CmpItemAbbrMatchFuzzy = {fg=zephyr.cyan};
+    --CmpItemKindVariable = {fg=zephyr.teal}:
+    --CmpItemKindInterface = {fg=zephyr.teal}:
+    --CmpItemKindText = {fg=zephyr.teal}:
+    --CmpItemKindFunction = {fg=zephyr.magenta};
+    --CmpItemKindMethod = {fg=zephyr.magenta};
+    --CmpItemKindKeyword = {fg=zephyr.yellow};
 
-    CmpItemAbbr = { fg = zephyr.fg };
-    -- CmpItemAbbrDeprecated = { fg = c.fg_gutter, bg = c.none, style = "strikethrough" };
+    -- CmpItemAbbr = { fg = zephyr.fg };
+    CmpItemAbbrDeprecated = { fg = zephyr.grey, style = "strikethrough" };
     CmpItemAbbrMatch = { fg = zephyr.blue };
     CmpItemAbbrMatchFuzzy = { fg = zephyr.blue};
 
     -- CmpItemKindDefault = { fg = c.fg_dark, bg = c.none };
     -- CmpItemMenu = { fg = c.comment, bg = c.none };
 
-    -- CmpItemKindVariable = { fg = c.magenta, bg = c.none };
-
-    -- CmpItemKindFunction = { fg = c.blue, bg = c.none };
-    -- CmpItemKindMethod = { fg = c.blue, bg = c.none };
+    CmpItemKindVariable = { fg = zephyr.teal };
+    CmpItemKindText = { fg = zephyr.teal }:
+    CmpItemKindFunction = { fg = zephyr.magenta };
+    CmpItemKindMethod = { fg = zephyr.magenta };
 
     -- CmpItemKindClass = { fg = c.orange, bg = c.none };
-    -- CmpItemKindInterface = { fg = c.orange, bg = c.none };
+    CmpItemKindInterface = { fg = zephyr.teal };
+    CmpItemKindKeyword = { fg = zephyr.yellow };
 
     -- CmpItemKindProperty = { fg = c.green1, bg = c.none };
     -- CmpItemKindField = { fg = c.green1, bg = c.none };
