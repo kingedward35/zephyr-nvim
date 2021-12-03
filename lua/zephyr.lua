@@ -264,6 +264,28 @@ function zephyr.load_plugin_syntax()
     LspDiagnosticsUnderlineHint = {style="undercurl",sp=zephyr.cyan};
         
     -- Cmp
+    -- CmpDocumentation = { fg = c.fg, bg = c.bg_float };
+    -- CmpDocumentationBorder = { fg = c.border_highlight, bg = c.bg_float };
+
+    CmpItemAbbr = { fg = zephyr.fg };
+    -- CmpItemAbbrDeprecated = { fg = c.fg_gutter, bg = c.none, style = "strikethrough" };
+    CmpItemAbbrMatch = { fg = zephyr.blue };
+    CmpItemAbbrMatchFuzzy = { fg = zephyr.blue};
+
+    -- CmpItemKindDefault = { fg = c.fg_dark, bg = c.none };
+    -- CmpItemMenu = { fg = c.comment, bg = c.none };
+
+    -- CmpItemKindVariable = { fg = c.magenta, bg = c.none };
+
+    -- CmpItemKindFunction = { fg = c.blue, bg = c.none };
+    -- CmpItemKindMethod = { fg = c.blue, bg = c.none };
+
+    -- CmpItemKindClass = { fg = c.orange, bg = c.none };
+    -- CmpItemKindInterface = { fg = c.orange, bg = c.none };
+
+    -- CmpItemKindProperty = { fg = c.green1, bg = c.none };
+    -- CmpItemKindField = { fg = c.green1, bg = c.none };
+    -- CmpItemKindSnippet = { fg = c.dark5, bg = c.none };
 
 
     CursorWord0 = {bg=zephyr.currsor_bg};
