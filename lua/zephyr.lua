@@ -114,7 +114,7 @@ function zephyr.load_syntax()
     Pmenu = {fg=zephyr.fg,bg=zephyr.bg_popup};
     PmenuSel = {fg=zephyr.base0,bg=zephyr.blue};
     PmenuSelBold = {fg=zephyr.base0,g=zephyr.blue};
-    PmenuSbar = {fg=zephyr.none,bg=zephyr.base4};
+    PmenuSbar = {fg=zephyr.none,bg=zephyr.bg_popup};
     PmenuThumb = {fg=zephyr.violet,bg=zephyr.light_green};
     WildMenu = {fg=zephyr.fg,bg=zephyr.green};
     Question = {fg=zephyr.yellow};
