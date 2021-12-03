@@ -284,15 +284,37 @@ function zephyr.load_plugin_syntax()
 
     -- CmpItemKindDefault = { fg = c.fg_dark, bg = c.none };
     -- CmpItemMenu = { fg = c.comment, bg = c.none };
+        
+        
+        
+        
+        
+        
+        
 
     CmpItemKindVariable = { fg = zephyr.teal };
-    CmpItemKindText = { fg = zephyr.teal }:
-    CmpItemKindFunction = { fg = zephyr.magenta };
-    CmpItemKindMethod = { fg = zephyr.magenta };
+    --CmpItemKindText = { fg = zephyr.teal }:
+    --CmpItemKindFunction = { fg = zephyr.magenta };
+    --CmpItemKindMethod = { fg = zephyr.magenta };
+        
+        
+        
+        
+        
 
     -- CmpItemKindClass = { fg = c.orange, bg = c.none };
-    CmpItemKindInterface = { fg = zephyr.teal };
-    CmpItemKindKeyword = { fg = zephyr.yellow };
+        
+        
+        
+        
+    --CmpItemKindInterface = { fg = zephyr.teal };
+    --CmpItemKindKeyword = { fg = zephyr.yellow };
+        
+        
+        
+        
+        
+        
 
     -- CmpItemKindProperty = { fg = c.green1, bg = c.none };
     -- CmpItemKindField = { fg = c.green1, bg = c.none };
