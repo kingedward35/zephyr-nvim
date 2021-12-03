@@ -118,7 +118,7 @@ function zephyr.load_syntax()
     PmenuThumb = {fg=zephyr.violet,bg=zephyr.light_green};
     WildMenu = {fg=zephyr.fg,bg=zephyr.green};
     Question = {fg=zephyr.yellow};
-    NormalFloat = {fg=zephyr.base8,bg=zephyr.bg_highlight};
+    NormalFloat = {fg=zephyr.base8,bg=zephyr.bg_popup};
     Tabline = {fg=zephyr.base6,bg=zephyr.base2};
     TabLineFill = {style=zephyr.none};
     TabLineSel = {fg=zephyr.fg,bg=zephyr.blue};
