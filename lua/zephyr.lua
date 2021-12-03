@@ -293,9 +293,9 @@ function zephyr.load_plugin_syntax()
         
 
     CmpItemKindVariable = { fg = zephyr.teal };
-    --CmpItemKindText = { fg = zephyr.teal }:
-    --CmpItemKindFunction = { fg = zephyr.magenta };
-    --CmpItemKindMethod = { fg = zephyr.magenta };
+    CmpItemKindText = { fg = zephyr.teal };
+    CmpItemKindFunction = { fg = zephyr.magenta };
+    CmpItemKindMethod = { fg = zephyr.magenta };
         
         
         
@@ -307,8 +307,8 @@ function zephyr.load_plugin_syntax()
         
         
         
-    --CmpItemKindInterface = { fg = zephyr.teal };
-    --CmpItemKindKeyword = { fg = zephyr.yellow };
+    CmpItemKindInterface = { fg = zephyr.teal };
+    CmpItemKindKeyword = { fg = zephyr.yellow };
         
         
         
