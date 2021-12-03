@@ -15,7 +15,8 @@ local zephyr = {
 
   bg = '#000000';
   bg1 = '#504945';
-  bg_popup = '#100e1c';
+  -- bg_popup = '#100e1c';
+  bg_popup = '#190323';
   bg_highlight  = '#2E323C';
   bg_visual = '#b3deef';
 
