@@ -272,7 +272,7 @@ function zephyr.load_plugin_syntax()
     CmpItemAbbrMatchFuzzy = { fg = zephyr.blue};
 
     -- CmpItemKindDefault = { fg = c.fg_dark, bg = c.none };
-    -- CmpItemMenu = { fg = c.comment, bg = c.none };
+    CmpItemMenu = { fg = zephyr.fg, bg = zephyr.black };
     CmpItemKindVariable = { fg = zephyr.teal };
     CmpItemKindText = { fg = zephyr.teal };
     CmpItemKindFunction = { fg = zephyr.magenta };
