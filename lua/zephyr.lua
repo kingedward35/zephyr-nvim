@@ -110,6 +110,7 @@ function zephyr.load_syntax()
     NonText = {fg=zephyr.bg1};
     Whitespace = {fg=zephyr.base4};
     SpecialKey = {fg=zephyr.bg1};
+    FloatBorder = { fg = zephyr.bg_highlight };
     Pmenu = {fg=zephyr.fg,bg=zephyr.bg_popup};
     PmenuSel = {fg=zephyr.base0,bg=zephyr.blue};
     PmenuSelBold = {fg=zephyr.base0,g=zephyr.blue};
