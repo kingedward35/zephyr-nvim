@@ -270,19 +270,18 @@ function zephyr.load_plugin_syntax()
 		CmpItemAbbrDeprecated = { fg = zephyr.grey, style = "strikethrough" },
 		CmpItemAbbrMatch = { fg = zephyr.blue },
 		CmpItemAbbrMatchFuzzy = { fg = zephyr.blue },
-
-		-- CmpItemKindDefault = { fg = c.fg_dark, bg = c.none };
-		-- CmpItemMenu = { fg = zephyr.black  };
 		CmpItemKindVariable = { fg = zephyr.teal },
 		CmpItemKindText = { fg = zephyr.teal },
 		CmpItemKindFunction = { fg = zephyr.magenta },
 		CmpItemKindMethod = { fg = zephyr.magenta },
-		-- CmpItemKindClass = { fg = c.orange, bg = c.none };
 		CmpItemKindInterface = { fg = zephyr.teal },
 		CmpItemKindKeyword = { fg = zephyr.yellow },
+		-- CmpItemKindDefault = { fg = c.fg_dark, bg = c.none };
+		-- CmpItemMenu = { fg = zephyr.black  };
+		-- CmpItemKindClass = { fg = c.orange, bg = c.none };
 		-- CmpItemKindProperty = { fg = c.green1, bg = c.none };
 		-- CmpItemKindField = { fg = c.green1, bg = c.none };
-		-- CmpItemKindSnippet = { fg = c.dark5, bg = c.none };
+		CmpItemKindSnippet = { fg = zephyr.yellow },
 
 		CursorWord0 = { bg = zephyr.currsor_bg },
 		CursorWord1 = { bg = zephyr.currsor_bg },
