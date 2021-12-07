@@ -98,7 +98,7 @@ function zephyr.load_syntax()
 		qfLineNr = { fg = zephyr.cyan },
 		CursorLineNr = { fg = zephyr.blue },
 		DiffAdd = { fg = zephyr.black, bg = zephyr.dark_green },
-		DiffChange = { fg = zephyr.black, bg = zephyr.yellow },
+		DiffChange = { fg = zephyr.black, bg = zephyr.cyan },
 		DiffDelete = { fg = zephyr.black, bg = zephyr.red },
 		DiffText = { fg = zephyr.black, bg = zephyr.fg },
 		Directory = { fg = zephyr.blue, bg = zephyr.none },
@@ -276,12 +276,12 @@ function zephyr.load_plugin_syntax()
 		CmpItemKindMethod = { fg = zephyr.magenta },
 		CmpItemKindInterface = { fg = zephyr.teal },
 		CmpItemKindKeyword = { fg = zephyr.yellow },
+		CmpItemKindSnippet = { fg = zephyr.yellow },
 		-- CmpItemKindDefault = { fg = c.fg_dark, bg = c.none };
 		-- CmpItemMenu = { fg = zephyr.black  };
 		-- CmpItemKindClass = { fg = c.orange, bg = c.none };
 		-- CmpItemKindProperty = { fg = c.green1, bg = c.none };
 		-- CmpItemKindField = { fg = c.green1, bg = c.none };
-		CmpItemKindSnippet = { fg = zephyr.yellow },
 
 		CursorWord0 = { bg = zephyr.currsor_bg },
 		CursorWord1 = { bg = zephyr.currsor_bg },
