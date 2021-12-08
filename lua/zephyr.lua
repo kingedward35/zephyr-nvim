@@ -2,6 +2,7 @@
 -- Author: Glepnir
 -- License: MIT
 -- Source: http://github.com/glepnir/zephyr-nvim
+local util = require("tokyonight.util")
 local zephyr = {
 	base0 = "#1B2229",
 	base1 = "#1c1f24",
@@ -45,6 +46,14 @@ local zephyr = {
 	bracket = "#80A0C2",
 	currsor_bg = "#4f5b66",
 	none = "NONE",
+	-- git = { change = "#6183bb", add = "#449dab", delete = "#914c54", conflict = "#bb7a61" },
+	diff = {
+		add = util.darken("#98be65", 0.90),
+		delete = util.darken("#d16d9e", 0.90),
+		change = util.darken("#6183bb", 0.35),
+		text = "#6183bb",
+		-- text = "#bbc2cf",
+	},
 }
 
 function zephyr.terminal_color()
@@ -97,10 +106,10 @@ function zephyr.load_syntax()
 		LineNr = { fg = zephyr.base4 },
 		qfLineNr = { fg = zephyr.cyan },
 		CursorLineNr = { fg = zephyr.blue },
-		DiffAdd = { fg = zephyr.black, bg = zephyr.dark_green },
-		DiffChange = { fg = zephyr.black, bg = zephyr.cyan },
-		DiffDelete = { fg = zephyr.black, bg = zephyr.red },
-		DiffText = { fg = zephyr.black, bg = zephyr.fg },
+		DiffAdd = { fg = zephyr.black, bg = zephyr.diff.add },
+		DiffChange = { fg = zephyr.black, bg = zephyr.diff.change },
+		DiffDelete = { fg = zephyr.black, bg = zephyr.diff.delete },
+		DiffText = { fg = zephyr.black, bg = zephyr.diff.text },
 		Directory = { fg = zephyr.blue, bg = zephyr.none },
 		ErrorMsg = { fg = zephyr.red, bg = zephyr.none, style = "bold" },
 		WarningMsg = { fg = zephyr.yellow, bg = zephyr.none, style = "bold" },
