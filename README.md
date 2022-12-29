@@ -6,7 +6,7 @@ A dark neovim colorscheme written in lua and syntax based on
 
 eg: vim-plug
 ```vim
-Plug 'glepnir/zephyr-nvim'
+Plug 'kingedward35/zephyr-nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 ```
 
