@@ -195,7 +195,6 @@ function zephyr.load_plugin_syntax()
     ["@method"] = { fg = zephyr.blue },
     ["@keyword.function"] = { fg = zephyr.red },
     ["@property"] = { fg = zephyr.yellow },
-    ["@type"] = { fg = zephyr.teal },
     ["@variable"] = { fg = zephyr.red },
     ["@punctuation.bracket"] = { fg = zephyr.bracket },
 
