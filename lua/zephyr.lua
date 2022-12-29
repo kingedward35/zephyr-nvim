@@ -197,7 +197,7 @@ function zephyr.load_plugin_syntax()
     ["@property"] = { fg = zephyr.yellow },
     ["@type"] = { fg = zephyr.orange },
     ["@variable"] = { fg = zephyr.red },
-    -- ["@punctuation.bracket"] = { fg = zephyr.bracket },
+    ["@punctuation.bracket"] = { fg = zephyr.bracket },
 
     vimCommentTitle = { fg = zephyr.grey, bold = true },
     vimLet = { fg = zephyr.orange },
